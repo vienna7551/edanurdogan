@@ -1,0 +1,80 @@
+body,h1,ul,li{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background:url(resimler/arkaplan.jpg) #252525;
+    font-family: sans-serif;
+	
+}
+ 
+.sayfa{
+    width: 950px;
+    margin:50px auto;
+	
+}
+ 
+#baslik{
+    float: left;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+ 
+#menu{
+    float: right;
+    list-style: none;
+    margin-top: 1em;
+}
+ 
+#menu li{
+    float: left;
+    
+}
+ 
+#menu li a{
+    color: whiten;
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px 20px;
+}
+ 
+#menu a:hover{
+    background: #444;
+    border-radius: 15px;
+}
+ 
+.orta{
+    margin-top: 10px;
+    background: #333;
+ 
+}
+ 
+.orta-sol{
+    float: left;
+    width:450px;
+}
+ 
+ 
+.orta-sag{
+    float: left;
+    margin: 15px;
+    width: 470px;
+    color:black;
+}
+ 
+.alt{
+    background: #555;
+    padding:32px;
+    text-align: center;
+    color: #fff;
+	.altmenu
+}
+.alt a{
+     color: #fff;
+}
+ 
+.temizle{
+    clear: both;
+}
